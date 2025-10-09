@@ -1,0 +1,2 @@
+2025-09-25T13:19:46.753200Z [rsession-cantez93800] WARNING Abort requested; LOGGED FROM: bool rstudio::session::connection::checkForAbort(rstudio_boost::shared_ptr<rstudio::session::HttpConnection>, rstudio_boost::function<void()>) src/cpp/session/http/SessionHttpConnectionUtils.cpp:135
+2025-09-25T13:19:46.753200Z [rsession-cantez93800] WARNING Abort requested; LOGGED FROM: bool rstudio::session::connection::checkForAbort(rstudio_boost::shared_ptr<rstudio::session::HttpConnection>, rstudio_boost::function<void()>) src/cpp/session/http/SessionHttpConnectionUtils.cpp:135

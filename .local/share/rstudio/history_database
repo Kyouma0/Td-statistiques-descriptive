@@ -1,0 +1,860 @@
+1758703049228:demo()
+1758799602771:help.start()
+1758799651528:x <- 10
+1758799653596:x
+1758799683407:x
+1758799683407:objects()
+1758799687382:objects()
+1758799695823:objects()
+1758799696833:objects()
+1758799703808:x <- 10
+1758799703809:x
+1758799703809:objects()
+1758799710138:x <- 10
+1758799710139:x
+1758799710139:objects()
+1758799738757:rm(x)
+1758799747184:objects()
+1758799771454:x <- c(10,5,9)
+1758799778069:x
+1758800252500:knitr::opts_chunk$set(echo = TRUE)
+1758800252650:summary(cars)
+1758800252683:plot(pressure)
+1758800363528:summary(cars)
+1758800481277:x <- c(10,5,9)
+1758800481277:x
+1758800481277:age <- c(18, 27, 34, 18, 24, NA, 30, 28, 19, 19)
+1758800481277:age
+1758800481278:sexe <- c("F", "F", "M", "F", "M", "M", "M", "F", "M", "F")
+1758800481278:sexe
+1758800518037:df <- data.frame(age, sex = sexe)
+1758800522610:df
+1758800541299:summary(df)
+1758800589946:exemple_liste
+1758800593591:exemple_liste = list (patient_age = age, patient_genre = sexe, etude ="age vs sexe")
+1758800596265:exemple_liste
+1758800611029:exemple_liste
+1758800663932:patient_age
+1758800673114:$patient_age
+1758800680842:$patient_age
+1758800733045:summary(example_liste)
+1758800745689:summary(exemple_liste)
+1758800769994:exemple_liste$patient_age
+1758800835662:exemple_liste$patient_age[c(1,3,5,6)]
+1758800909684:sexe[which(age>25)]
+1758800963300:sex[which(age>25)]
+1758801035314:sexe[which(age<25 | age >30)]
+1758801076245:sexe[which(age>=25&age<=30)]
+1758801155372:sum(age[c(-1,-6)])
+1758801164026:sum(age[c(1,6)])
+1758801171035:sum(age[c(1)])
+1758801181527:sum(age[-c(1,6)])
+1758801362029:df <- data.frame(age, sexe)
+1758801362031:write.csv(df, file = "age_vs_sexe.csv")
+1758801362032:write.table(df, file = "age_vs_sexe.dat")
+1758801372503:df <- data.frame(age, sexe)
+1758801379192:write.csv(df, file = "age_vs_sexe.csv")
+1758801385559:write.table(df, file = "age_vs_sexe.dat")
+1758801433107:df_read_csv <- read.csv("age_vs_sexe.csv")
+1758801439475:View(df_read_csv)
+1758801443090:View(df)
+1758801504789:df_read_csv
+1758801612222:rm()
+1758801631389:objects()
+1758801660104:rm(x,age,sexe,df)
+1758801685634:objects()
+1758801706842:rm(df_read_csv,exemple_liste)
+1758801711880:objects()
+1758801749836:x <- 5:14 # ou encore c(5:14)
+1758801761854:y <- round(rnorm(10, x, 1), 2)
+1758801768768:y <- round(rnorm(10, x, 1), 2)
+1758801825002:set.seed(1234)
+1758801828228:x <- 5:14 # ou encore c(5:14)
+1758801830587:y <- round(rnorm(10, x, 1), 2)
+1758801852384:df <- data.frame(x,y)
+1758801857367:df
+1758801889597:plot(y)
+1758801940591:plot(x,y)
+1758801984509:plot(df)
+1758802019686:par(col = "black", col.axis = "blue", col.lab = "darkolivegreen3")
+1758802030147:plot(df)
+1758802039827:par(col = "red", col.axis = "blue", col.lab = "darkolivegreen3")
+1758802043933:plot(df)
+1758802081918:plot(df, col = "goldenrod3", type = "b")
+1758802087588:plot(df, col = "goldenrod3", type = "a")
+1758802095104:plot(df, col = "goldenrod3", type = "c")
+1758802100425:plot(df, col = "goldenrod3", type = "b")
+1758802160366:plot(df, col = "goldenrod3", type = "s")
+1758802189517:plot(df, col = "goldenrod3", type = "o")
+1758802210574:plot(df, col = "goldenrod3", type = "n")
+1758802218727:plot(df, col = "goldenrod3", type = "o")
+1758802229472:plot(df, col = "goldenrod3", type = "h")
+1758802617186:rm(df,x,y)
+1758802628787:data(airquality)
+1758802630118:force(airquality)
+1758802716322:airquality$Ozone
+1758803106670:V1=c(-1,3.2,2.8)
+1758803148562:V2=seq(-2,6,1)
+1758803182104:V3=seq(0.05,0.2,0.05)
+1758803205120:V4=rep(1,10)
+1758803217323:V5=c(OUI,NON)
+1758803226115:V5=c('OUI','NON')
+1758803367715:V1=order(V1, decreasing = FALSE)
+1758803377715:V1=c(-1,3.2,2.8)
+1758803389008:V1=order(V1, decreasing = TRUE)
+1758803400536:V1=c(-1,3.2,-2.8)
+1758803404824:V1=order(V1, decreasing = TRUE)
+1758803446094:V1=order(V1, decreasing = TRUE, na.last = TRUE)
+1758803453731:V1=c(-1,3.2,-2.8)
+1758803473227:V1=order(V1, na.last = TRUE)
+1758803480020:V1=c(-1,3.2,-2.8)
+1758803483936:V1=order(V1, na.last = TRUE)
+1758803597129:V6=sort(V1)
+1758803602100:V1=c(-1,3.2,-2.8)
+1758803604449:V6=sort(V1)
+1758803614173:V6=sort(V1, FALSE)
+1758803624631:V6=sort(V1, TRUE)
+1758803664550:print(sort(V1, TRUE))
+1758803683859:V6=2*V2-3
+1758803714506:V3+V2
+1758803726037:print(V3+V2)
+1758803837087:print(log(V3))
+1758803879731:print(V5[2])
+1758803891542:V5[2]
+1758804054655:V7=V6[7:9]
+1758804154715:length(V6)
+1758804161566:sum(V6)
+1758804985836:x=c(4138,7077,11176,6474,3735,2365,1573)
+1758805078534:y=c(0.011,0.066,0.263,0.647,0.887,0.98,0.99)
+1758805118435:df = data.entry(x,y)
+1758805143688:df = data.frame(x,y)
+1758805222919:sum(x*y/7)
+1758805338973:sum(x*y/sum(x))
+1758805486485:mat0 = matrix(1, nrow = 3, ncol = 4)
+1758805534796:vect1
+1758805541564:vect1 = c(0,1,2,3) # on spécifie chaque valeur
+1758805541564:vect1
+1758805552862:vect2 = rep(2,4) # on répète 4 fois la valeur 2
+1758805552863:vect2
+1758805582661:vect1 = c(0,1,2,3) # on spécifie chaque valeur
+1758805582661:vect1
+1758805582661:vect2 = rep(2,4) # on répète 4 fois la valeur 2
+1758805582662:vect2
+1758805582662:vect3 = seq(0.5,2,0.6) # on va de 0.5 à 2 en faisant des pas de longueur 0.6
+1758805582663:vect3
+1758805609824:vect1 = c(0,1,2,3) # on spécifie chaque valeur
+1758805609824:vect1
+1758805609825:vect2 = rep(2,4) # on répète 4 fois la valeur 2
+1758805609825:vect2
+1758805609825:vect3 = seq(0.5,2,0.5) # on va de 0.5 à 2 en faisant des pas de longueur 0.6
+1758805609826:vect3
+1758805669380:mat1 = cbind(vect1, vect2, vect3)
+1758805675726:mat1
+1758805688097:mat0
+1758805697389:mat0*mat1
+1758805738451:mat0%*%mat1
+1758805806988:mat1[-2]
+1758805914906:mat1[,-2]
+1758805932877:mat1[-2,]
+1758805981267:mat[,2]
+1758805986492:mat1[,2]
+1758806083187:mat2=mat1[-2,]
+1758806092585:mat2
+1758806122422:mat3=mat0[,-1]
+1758806129388:mat3
+1758806141354:mat2*mat3
+1758806159619:View(mat3)
+1758806194751:View(mat3)
+1758806195533:View(mat3)
+1758806195699:View(mat3)
+1758806195884:View(mat3)
+1758806196058:View(mat3)
+1758806196231:View(mat3)
+1758806196409:View(mat3)
+1758806196584:View(mat3)
+1758806196751:View(mat3)
+1758806218027:edit(mat3)
+1758806401496:x <- 10
+1758806401496:x
+1758806401496:objects()
+1758806401497:rm(x)
+1758806401498:objects()
+1758806401498:x <- c(10,5,9)
+1758806401498:x
+1758806401498:age <- c(18, 27, 34, 18, 24, NA, 30, 28, 19, 19)
+1758806401498:age
+1758806401499:sexe <- c("F", "F", "M", "F", "M", "M", "M", "F", "M", "F")
+1758806401499:sexe
+1758806401500:df <- data.frame(age, sex = sexe)
+1758806401502:df
+1758806401505:summary(df)
+1758806401510:exemple_liste = list (patient_age = age, patient_genre = sexe, etude ="age vs sexe")
+1758806401510:exemple_liste
+1758806401510:summary(exemple_liste)
+1758806401511:exemple_liste$patient_age
+1758806401511:exemple_liste$patient_age[c(1,3,5,6)]
+1758806401511:sexe[which(age>25)]
+1758806401511:sexe[which(age<25 | age >30)]
+1758806401511:sexe[which(age>=25&age<=30)]
+1758806401511:sum(age[-c(1,6)])
+1758806401512:df <- data.frame(age, sexe)
+1758806401512:write.csv(df, file = "age_vs_sexe.csv")
+1758806401514:write.table(df, file = "age_vs_sexe.dat")
+1758806401515:df_read_csv <- read.csv("age_vs_sexe.csv")
+1758806401517:objects()
+1758806401517:rm(df_read_csv,exemple_liste)
+1758806401518:set.seed(1234)
+1758806401518:x <- 5:14 # ou encore c(5:14)
+1758806401518:y <- round(rnorm(10, x, 1), 2)
+1758806401518:df <- data.frame(x,y)
+1758806401519:df
+1758806401520:plot(y)
+1758806401553:plot(x,y)
+1758806401563:plot(df)
+1758806401570:par(col = "red", col.axis = "blue", col.lab = "darkolivegreen3")
+1758806401570:plot(df, col = "goldenrod3", type = "h")
+1758806401576:rm(df,x,y)
+1758806401576:data(airquality)
+1758806401578:airquality$Ozone
+1758806401579:V1=c(-1,3.2,-2.8)
+1758806401580:V2=seq(-2,6,1)
+1758806401580:V3=seq(0.05,0.2,0.05)
+1758806401580:V4=rep(1,10)
+1758806401580:V5=c('OUI','NON')
+1758806401580:print(sort(V1, TRUE))
+1758806401580:V6=2*V2-3
+1758806401580:print(V3+V2)
+1758806401580:print(log(V3))
+1758806401581:print(V5[2])
+1758806401581:V5[2]
+1758806401581:V7=V6[7:9]
+1758806401581:length(V6)
+1758806401581:sum(V6)
+1758806401581:x=c(4138,7077,11176,6474,3735,2365,1573)
+1758806401581:y=c(0.011,0.066,0.263,0.647,0.887,0.98,0.99)
+1758806401581:df = data.frame(x,y)
+1758806401581:sum(x*y/sum(x))
+1758806401581:mat0 = matrix(1, nrow = 3, ncol = 4)
+1758806401581:vect1 = c(0,1,2,3) # on spécifie chaque valeur
+1758806401581:vect1
+1758806401582:vect2 = rep(2,4) # on répète 4 fois la valeur 2
+1758806401582:vect2
+1758806401582:vect3 = seq(0.5,2,0.5) # on va de 0.5 à 2 en faisant des pas de longueur 0.6
+1758806401582:vect3
+1758806401582:mat1 = cbind(vect1, vect2, vect3)
+1758806401582:mat1
+1758806401582:mat0
+1758806401582:mat0*mat1
+1758806434957:mat0%*%mat1
+1758806434957:mat1[,-2]
+1758806434958:mat2=mat1[-2,]
+1758806434958:mat1[,2]
+1758806434958:mat2
+1758806434959:mat3=mat0[,-1]
+1758806434959:mat3
+1758806434959:mat2*mat3
+1758806434960:edit(mat3)
+1758806493748:mat3
+1758806512162:mat3=edit(mat3)
+1758806541785:mat3
+1758806555351:mat2*mat3
+1758806569795:mat2
+1758806664806:solve(mat2)
+1758806672407:solve(mat3)
+1758806864789:plot(airquality$Wind, airquality$Ozone )
+1758806883325:abline(reg, col="blue")
+1758807237822:hist(airquality$Temp)
+1758807253595:hist(airquality$Temp, breaks=5)
+1758807289907:airquality$Month<- factor(airquality$Month)
+1758807296338:View(airquality)
+1758807327584:boxplot(airquality$Temp)
+1758807352989:View(airquality)
+1758807387949:boxplot(airquality$Temp ~ airquality$Month)
+1758807409595:mean(airquality$Temp, airquality&Month=5)
+1758807427214:mean(airquality$Temp, airquality&Month == 5)
+1758807433826:mean(airquality$Temp, airquality&Month = 5)
+1758807447710:mean(airquality$Temp, airquality&Month)
+1758807470504:mean(airquality&Month)
+1758807503429:data(airquality)
+1758807511217:mean(airquality&Month)
+1758807576031:mean(airquality&Temp)
+1758807589576:mean(airquality$Temp)
+1758807605794:boxplot(airquality$Temp ~ airquality$Month=5)
+1758807611041:boxplot(airquality$Temp ~ airquality$Month = 5)
+1758807616306:boxplot(airquality$Temp ~ airquality$Month == 5)
+1758807656770:mean(airquality$Temp, airquality$Month=5)
+1758807661012:mean(airquality$Temp, airquality$Month==5)
+1758807662486:data(airquality)
+1758807670790:mean(airquality$Temp, airquality$Month == 5)
+1758807695181:airquality$Month<- factor(airquality$Month)
+1758807700046:airquality$Month<- factor(airquality$Month)
+1758807702328:mean(airquality$Temp, airquality$Month == 5)
+1758807721834:mean(airquality$Month)
+1758807727784:View(airquality)
+1758807760664:mean(airquality$Month[1:31])
+1758807775405:data(airquality)
+1758807803803:mean(airquality$Temp[1:31])
+1758807811665:boxplot(airquality$Temp)
+1758807818275:boxplot(airquality$Temp ~ airquality$Month)
+1758807871129:plot( airquality$Wind, airquality$Ozone)
+1758808052029:cor(airquality$Temp, airquality$Wind)
+1758808069871:lm(airquality$Ozone ~ airquality$Wind)
+1758808095045:reg<- lm(airquality$Ozone ~ airquality$Wind)
+1758808108031:summary(reg)
+1758808143449:abline(reg, col="dark")
+1758808151302:abline(reg, col="black")
+1758808162832:plot(airquality$Wind, airquality$Ozone )
+1758808167473:abline(reg, col="black")
+1758978021993:a=c(1,2,3)
+1758978047687:a=c(1,2,3)
+1758978047687:b=c(4,5,6)
+1758978047688:c=c(7,8,9)
+1758978094043:mat=cbind(a,b,c)
+1758978098699:mat
+1758978439371:table0 = read.table("Table0.txt", header = TRUE)
+1758978456901:table0 = read.table("Table0.txt", header = TRUE)
+1758978492635:table0 = read.table("Table0.txt", header = TRUE)
+1758978528331:table0 = read.table("~/venv_jupyter/Table0.txt", header = TRUE)
+1758978604285:table0 = read.table("~/Table0.txt", header = TRUE)
+1758978608261:View(table0)
+1758978649906:table0 = read.table("~/Table0.txt")
+1758978654754:View(table0)
+1758979088734:colnames(table0) <- c("Nom", "Age", "Taille", "Poids", "Sexe")
+1758979093803:View(table0)
+1758979140820:rownames(table0) <- table0$Nom
+1758979197999:table0$Nom = NULL
+1758979208806:table0
+1758979300168:table1 = read.table("~/Table1.txt")
+1758979305681:View(table1)
+1758979551724:table1 =read.table("~/Table1.txt", header = TRUE, stringsAsFactors = FALSE)
+1758979601429:table1 =read.table("~/Table1.txt", header = TRUE)
+1758979619084:, stringsAsFactors = FALSE
+1758979651222:table1$Name = NULL
+1758979720237:table1 =read.table("~/Table1.txt", header = TRUE, stringsAsFactors = FALSE)
+1758979745685:rownames(table1) <- table1$Name
+1758979753309:table1$Name = NULL
+1758980045595:# Importer le fichier, lecture des chaînes en caractères (pas facteurs)
+1758980045595:df <- read.csv("~/Cereals.csv", stringsAsFactors = FALSE)
+1758980049926:View(df)
+1758980056358:# Vérifier les premières lignes et la structure
+1758980056358:head(df)
+1758980076412:str(df)
+1758980161617:### a) Ajouter une nouvelle variable "totalcarb" = carbo + sugars
+1758980161617:df$totalcarb <- df$carbo + df$sugars
+1758980208511:### b) Nombre de céréales "hot"
+1758980208511:sum(df$Cold.or.Hot == "H")
+1758980268591:### c) Nombre de fournisseurs uniques
+1758980268591:length(unique(df$Supplier))
+1758980374863:### d) Sous-ensemble uniquement fournisseur "K" (Kellogg's)
+1758980374863:df_K <- subset(df, Supplier == "K")
+1758980387161:View(df_K)
+1758980456399:### e) Sous-ensemble : moins de 80 calories ET plus de 20 vitamines
+1758980456399:df_calvi <- subset(df, calories < 80 & vitamins > 20)
+1758980460643:View(df_calvi)
+1758980581054:### f) Sous-ensemble : au moins 1 sucre,
+1758980581054:# ne garder que "Cereal.name", "calories", "vitamins"
+1758980581054:df_sugar <- subset(df, sugars >= 1, select = c(Cereal.name, calories, vitamins))
+1758980605553:View(df_sugar)
+1758980677267:head(df_sugar)
+1758980690333:### g) Sauvegarder un sous-ensemble en CSV (ex : df_sugar)
+1758980690333:write.csv(df_sugar, "Cereals_sugar.csv", row.names = FALSE)
+1758980787676:### h) Renommer la colonne "Supplier" en "Producteur"
+1758980787676:names(df)[names(df) == "Supplier"] <- "Producteur"
+1758981859566:rm(list = ls())
+1758981869296:### Charger le jeu de données
+1758981869296:data("islands")
+1758981870872:force(islands)
+1758981961882:### Nombre total d'observations
+1758981961882:length(islands)
+1758982000484:### Description rapide
+1758982000484:# 'islands' est un vecteur nommé : noms = îles/continents, valeurs = superficie (en milliers de miles²)
+1758982000484:head(islands)
+1758982055746:### Mesures de tendance centrale
+1758982055746:mean(islands)     # Moyenne
+1758982063884:median(islands)   # Médiane
+1758982164028:### Range (minimum et maximum)
+1758982164028:range(islands)           # min et max
+1758982172158:max(islands)             # plus grande île
+1758982186080:min(islands)             # plus petite île
+1758982206457:### Mesures de dispersion
+1758982206457:sd(islands)              # Écart-type
+1758982279437:quantile(islands, probs = c(0, 0.25, 0.5, 0.75, 1))     # 0%, 25%, 50%, 75%, 100%
+1758982289930:quantile(islands, probs = c(0.005, 0.95))               # 0.5% et 95%
+1758982308138:### Intervalle interquartile
+1758982308138:IQR(islands)
+1758982331089:)
+1758982338932:### Histogramme
+1758982338932:# A. Fréquence
+1758982338932:hist(islands, main="Histogramme des îles (fréquence)", xlab="Taille (en milliers de miles²)", col="lightblue")
+1758982377959:# B. Proportion
+1758982377960:hist(islands, main="Histogramme des îles (proportion)", xlab="Taille (en milliers de miles²)", col="lightgreen", freq=FALSE)
+1758982415323:# B. Proportion
+1758982415323:hist(islands, main="Histogramme des îles (proportion)", xlab="Taille (en milliers de miles²)", col="lightgreen", freq=TRUE)
+1758982425616:FALSE
+1758982432573:# B. Proportion
+1758982432574:hist(islands, main="Histogramme des îles (proportion)", xlab="Taille (en milliers de miles²)", col="lightgreen", freq=FALSE)
+1758982437318:### Diagrammes en boîte
+1758982437319:# C. Avec valeurs aberrantes
+1758982437319:boxplot(islands, main="Boxplot des îles (avec outliers)", col="orange")
+1758982439137:# D. Sans valeurs aberrantes
+1758982439137:boxplot(islands, outline=FALSE, main="Boxplot des îles (sans outliers)", col="pink")
+1758982444054:### Histogramme
+1758982444054:# A. Fréquence
+1758982444054:hist(islands, main="Histogramme des îles (fréquence)", xlab="Taille (en milliers de miles²)", col="lightblue")
+1758982445431:# B. Proportion
+1758982445431:hist(islands, main="Histogramme des îles (proportion)", xlab="Taille (en milliers de miles²)", col="lightgreen", freq=FALSE)
+1758982456491:### Histogramme
+1758982456492:# A. Fréquence
+1758982456492:hist(islands, main="Histogramme des îles (fréquence)", xlab="Taille (en milliers de miles²)", col="lightblue")
+1758982459270:# B. Proportion
+1758982459270:hist(islands, main="Histogramme des îles (proportion)", xlab="Taille (en milliers de miles²)", col="lightgreen", freq=FALSE)
+1758982893212:# B. Proportion
+1758982893212:hist(islands, main="Histogramme des îles (proportion)", xlab="Taille (en milliers de miles²)", col="lightgreen", probability = TRUE)
+1758982910726:# B. Proportion
+1758982910726:hist(islands, main="Histogramme des îles (proportion)", xlab="Taille (en milliers de miles²)", col="lightgreen", freq = TRUE, probability = TRUE)
+1758982973351:hist(islands,
+1758982973351:main="Histogramme des îles (proportions)",
+1758982973351:xlab="Taille (en milliers de miles²)",
+1758982973351:col="lightgreen",
+1758982973351:freq=TRUE,           # on garde les effectifs
+1758982973351:probability=TRUE)
+1758983109226:# B. Proportion
+1758983109227:hist(islands, main="Histogramme des îles (proportion)", xlab="Taille (en milliers de miles²)", col="lightgreen", freq = TRUE)
+1758983120480:# B. Proportion
+1758983120480:hist(islands, main="Histogramme des îles (proportion)", xlab="Taille (en milliers de miles²)", col="lightgreen", freq = FALSE)
+1758983130367:### Charger le jeu de données
+1758983130367:data("islands")
+1758983132581:### Nombre total d'observations
+1758983132581:length(islands)
+1758983134939:### Description rapide
+1758983134939:# 'islands' est un vecteur nommé : noms = îles/continents, valeurs = superficie (en milliers de miles²)
+1758983134939:head(islands)
+1758983138296:### Mesures de tendance centrale
+1758983138296:mean(islands)     # Moyenne
+1758983140664:median(islands)   # Médiane
+1758983143947:### Range (minimum et maximum)
+1758983143947:range(islands)           # min et max
+1758983147157:max(islands)             # plus grande île
+1758983150939:min(islands)             # plus petite île
+1758983156911:### Mesures de dispersion
+1758983156911:sd(islands)              # Écart-type
+1758983159664:quantile(islands, probs = c(0, 0.25, 0.5, 0.75, 1))     # 0%, 25%, 50%, 75%, 100%
+1758983162209:quantile(islands, probs = c(0.005, 0.95))               # 0.5% et 95%
+1758983165123:### Intervalle interquartile
+1758983165123:IQR(islands)
+1758983170553:### Histogramme
+1758983170554:# A. Fréquence
+1758983170554:hist(islands, main="Histogramme des îles (fréquence)", xlab="Taille (en milliers de miles²)", col="lightblue")
+1758983174380:# B. Proportion
+1758983174380:hist(islands, main="Histogramme des îles (proportion)", xlab="Taille (en milliers de miles²)", col="lightgreen", freq = FALSE)
+1758983186786:### Diagrammes en boîte
+1758983186786:# C. Avec valeurs aberrantes
+1758983186786:boxplot(islands, main="Boxplot des îles (avec outliers)", col="orange")
+1758983202593:# D. Sans valeurs aberrantes
+1758983202593:boxplot(islands, outline=FALSE, main="Boxplot des îles (sans outliers)", col="pink")
+1758983218870:### Diagrammes en boîte
+1758983218870:# C. Avec valeurs aberrantes
+1758983218870:boxplot(islands, main="Boxplot des îles (avec outliers)", col="orange")
+1758983224783:# D. Sans valeurs aberrantes
+1758983224783:boxplot(islands, outline=FALSE, main="Boxplot des îles (sans outliers)", col="pink")
+1758983322704:# Charger le jeu de données "sales"
+1758983322704:data("sales")   # si c'est un dataset intégré
+1758983662076:# Charger le jeu de données "sales"
+1758983662077:sales = read.csv("~/yearly_sales.csv", stringsAsFactors = FALSE)
+1758983666192:View(sales)
+1758983787961:# Créer la variable catégorielle
+1758983787961:sales$spender <- cut(sales$sales_totals, breaks = c(-Inf, 100, 500, Inf), labels = c("small", "medium", "big"), right = FALSE, ordered_result = TRUE)
+1758983924084:# Créer la variable catégorielle
+1758983924085:sales$spender = cut(sales$sales_totals, breaks = c(-min(sales$sales_totals), 100, 500, max(sales$sales_totals)), labels = c("small", "medium", "big"), right = FALSE, ordered_result = TRUE)
+1758983980910:# Créer la variable catégorielle
+1758983980910:sales$spender = cut(sales$sales_totals, breaks = c(0, 100, 500, 7607), labels = c("small", "medium", "big"), right = FALSE, ordered_result = TRUE)
+1758984017449:sales$spender <- cut(sales$sales_totals,
+1758984017449:breaks = c(-Inf, 100, 500, Inf),   # seuils
+1758984017450:labels = c("small", "medium", "big"),
+1758984017450:right = FALSE,                    # [100,500) appartient à "medium"
+1758984017450:ordered_result = TRUE)
+1758984072696:# Charger le jeu de données "sales"
+1758984072696:sales = read.csv("~/yealy_sales.csv")
+1758984086679:# Charger le jeu de données "sales"
+1758984086679:sales = read.csv("~/yearly_sales.csv")
+1758984094114:sales$spender <- cut(sales$sales_totals,
+1758984094114:breaks = c(-Inf, 100, 500, Inf),   # seuils
+1758984094114:labels = c("small", "medium", "big"),
+1758984094114:right = FALSE,                    # [100,500) appartient à "medium"
+1758984094115:ordered_result = TRUE)
+1758984138253:, stringsAsFactors = FALSE
+1758984141538:# Charger le jeu de données "sales"
+1758984141538:sales = read.csv("~/yealy_sales.csv", stringsAsFactors = FALSE)
+1758984148272:# Charger le jeu de données "sales"
+1758984148272:sales = read.csv("~/yearly_sales.csv", stringsAsFactors = FALSE)
+1758984153845:str(sales$sales_totals)
+1758984186812:sales$spender <- cut(sales$sales_total,
+1758984186813:breaks = c(-Inf, 100, 500, Inf),   # seuils
+1758984186813:labels = c("small", "medium", "big"),
+1758984186813:right = FALSE,                    # [100,500) appartient à "medium"
+1758984186813:ordered_result = TRUE)
+1758984386951:# Créer la variable catégorielle
+1758984386951:sales$spender <- cut(sales$sales_total, breaks = c(-Inf, 100, 500, Inf), labels = c("small", "medium", "big"), right = FALSE, ordered_result = TRUE)
+1758984421735:str(sales$sales_total)
+1758984431256:# Vérifier le résultat
+1758984431257:head(sales)
+1758984553341:str(sales)
+1758984781206:tinytex::install_tinytex()
+1758985108857:knitr::opts_chunk$set(echo = TRUE)
+1758985109054:#Exercice 1
+1758985109081:a=c(1,2,3)
+1758985109085:b=c(4,5,6)
+1758985109089:c=c(7,8,9)
+1758985109092:mat=cbind(a,b,c)
+1758985112454:#Exercice 2
+1758985112455:table0 = read.table("~/Table0.txt")
+1758985112460:colnames(table0) <- c("Nom", "Age", "Taille", "Poids", "Sexe")
+1758985112463:rownames(table0) <- table0$Nom
+1758985112467:table0$Nom = NULL
+1758985112470:table0
+1758985141370:rm(list = ls())
+1758987625268:table1 = read.table("~/Table1.txt")
+1758987633133:View(table1)
+1758987700338:rm(list = ls())
+1758988082142:# Importer le fichier, lecture des chaînes en caractères (pas facteurs)
+1758988082142:df <- read.csv("~/Cereals.csv", stringsAsFactors = FALSE)
+1758988084043:View(df)
+1758988812672:table0 = read.table("~/Table0.txt")
+1758988814913:colnames(table0) <- c("Nom", "Age", "Taille", "Poids", "Sexe")
+1758988816996:rownames(table0) <- table0$Nom
+1758988818275:table0$Nom = NULL
+1758988819392:table0
+1758988824546:table1 = read.table("~/Table1.txt")
+1758988825046:table1 =read.table("~/Table1.txt", header = TRUE, stringsAsFactors = FALSE)
+1758988826228:rownames(table1) <- table1$Name
+1758988826800:table1$Name = NULL
+1758988835726:table1
+1758988920989:rm(list = ls())
+1758988974779:### Charger le jeu de données
+1758988974779:island = data("islands")
+1758988989540:read.csv(island)
+1758989015693:island
+1758989023007:islands### Nombre total d'observations
+1758989083311:rm(list = ls())
+1758989213980:### Charger le jeu de données
+1758989213980:data("islands")
+1758989215441:### Nombre total d'observations
+1758989215442:length(islands)
+1758989219931:### Description rapide
+1758989219932:# 'islands' est un vecteur nommé : noms = îles/continents, valeurs = superficie (en milliers de miles²)
+1758989219932:head(islands)
+1758989221550:### Mesures de tendance centrale
+1758989221551:mean(islands)     # Moyenne
+1758989225027:median(islands)   # Médiane
+1758989226508:### Range (minimum et maximum)
+1758989226508:range(islands)           # min et max
+1758989227822:max(islands)             # plus grande île
+1758989330966:islands[which.max(islands)]          # plus grande île
+1758989344545:islands[which.min(islands)]            # plus petite île
+1758989373184:### Range (minimum et maximum)
+1758989373184:islands[which.range(islands)]          # min et max
+1758989552752:### Mesures de dispersion
+1758989552752:sd(islands)              # Écart-type
+1758989557464:quantile(islands, probs = c(0, 0.25, 0.5, 0.75, 1))     # 0%, 25%, 50%, 75%, 100%
+1758989575531:quantile(islands, probs = c(0.005, 0.95))               # 0.5% et 95%
+1758989577648:### Intervalle interquartile
+1758989577648:IQR(islands)
+1758989845543:a=c(1,2,3)
+1758989845896:b=c(4,5,6)
+1758989846314:c=c(7,8,9)
+1758989846848:a,b,c
+1758989858584:a , b , c
+1758989902856:print(a,b,c)
+1758989914301:print(a)
+1758989922379:print(b)
+1758989993751:rm(list = ls())
+1758990487186:head(df)
+1758990493387:df <- read.csv("~/Cereals.csv", stringsAsFactors = FALSE)
+1758990496186:View(df)
+1758995029808:latex::install latex
+1758995046736:latex::install_latex()
+1758995070919:output:
+1758995070919:bookdown::pdf_document2:
+1758995070919:latex_engine: lualatex
+1759735924576:rm(list = ls())
+1759735991322:# ==========================
+1759735991322:# 1. Représentations tabulaires et graphiques
+1759735991323:# ==========================
+1759735991323:# Charger le jeu de données intégré
+1759735991323:data(mtcars)
+1759735991326:# 1.1 Tableau de contingence entre 'cyl' et 'am'
+1759735991326:tab_cont <- table(mtcars$cyl, mtcars$am)
+1759735991332:tab_cont
+1759735991333:# 1.2 Histogramme des poids ('wt') avec 5 classes (bins)
+1759735991333:hist(mtcars$wt,
+1759735991333:breaks = 5,
+1759735991333:main = "Histogramme du poids des voitures (wt)",
+1759735991333:xlab = "Poids (en milliers de livres)",
+1759735991333:col = "lightblue",
+1759735991333:border = "white")
+1759735991381:# 1.3 Diagramme en boîte du poids ('wt')
+1759735991381:boxplot(mtcars$wt,
+1759735991381:main = "Diagramme en boîte du poids des voitures",
+1759735991381:ylab = "Poids (en milliers de livres)",
+1759735991381:col = "lightgreen")
+1759735991397:# ==========================
+1759735991397:# 2. Corrélation
+1759735991397:# ==========================
+1759735991397:# Données
+1759735991397:a <- c(11, 15, 23, 46, 52, 75)
+1759735991398:w <- c(34, 49, 58, 62, 69, 64)
+1759735991398:# 2.1 Calcul "à la main" (formule de corrélation de Pearson)
+1759735991398:cov_aw <- cov(a, w)
+1759735991398:sd_a <- sd(a)
+1759735991399:sd_w <- sd(w)
+1759735991399:r_aw <- cov_aw / (sd_a * sd_w)
+1759735991399:r_aw  # Corrélation calculée manuellement
+1759735991399:# 2.2 Vérification avec la fonction cor()
+1759735991399:cor(a, w)
+1759736010095:rm(list = ls())
+1759736017356:# Charger le jeu de données intégré
+1759736017356:data(mtcars)
+1759736022688:# 1.1 Tableau de contingence entre 'cyl' et 'am'
+1759736022688:tab_cont <- table(mtcars$cyl, mtcars$am)
+1759736032318:rm(list = ls())
+1759736038559:# Charger le jeu de données intégré
+1759736038559:data(mtcars)
+1759736039949:# 1.1 Tableau de contingence entre 'cyl' et 'am'
+1759736039949:tab_cont <- table(mtcars$cyl, mtcars$am)
+1759736041514:tab_cont
+1759736048833:View(mtcars)
+1759736105004:View(mtcars)
+1759736302922:# 1.2 Histogramme des poids ('wt') avec 5 classes (bins)
+1759736302922:hist(mtcars$wt,
+1759736302922:breaks = 5,
+1759736302922:main = "Histogramme du poids des voitures (wt)",
+1759736302922:xlab = "Poids (en milliers de livres)",
+1759736302922:col = "lightblue",
+1759736302922:border = "white")
+1759736379707:rm(list = ls())
+1759736384092:# Charger le jeu de données intégré
+1759736384092:data(mtcars)
+1759736385787:# 1.1 Tableau de contingence entre 'cyl' et 'am'
+1759736385787:tab_cont <- table(mtcars$cyl, mtcars$am)
+1759736392245:# Charger le jeu de données intégré
+1759736392245:data(mtcars)
+1759736392641:# 1.1 Tableau de contingence entre 'cyl' et 'am'
+1759736392641:tab_cont <- table(mtcars$cyl, mtcars$am)
+1759736393252:tab_cont
+1759736399646:# 1.2 Histogramme des poids ('wt') avec 5 classes (bins)
+1759736399646:hist(mtcars$wt, breaks = 5, main = "Histogramme du poids des voitures (wt)",
+1759736399647:xlab = "Poids (en milliers de livres)",col = "lightblue",border = "white")
+1759736422183:View(mtcars)
+1759736481658:# Charger le jeu de données intégré
+1759736481658:data(mtcars)
+1759736487214:# 1.1 Tableau de contingence entre 'cyl' et 'am'
+1759736487214:tab_cont <- table(mtcars$cyl, mtcars$am)
+1759736488161:tab_cont
+1759736491053:# 1.2 Histogramme des poids ('wt') avec 5 classes (bins)
+1759736491054:hist(mtcars$wt, breaks = 5, main = "Histogramme du poids des voitures (wt)",
+1759736491054:xlab = "Poids (en milliers de livres)",col = "lightblue",border = "white")
+1759736492333:# 1.3 Diagramme en boîte du poids ('wt')
+1759736492333:boxplot(mtcars$wt, main = "Diagramme en boîte du poids des voitures",
+1759736492334:ylab = "Poids (en milliers de livres)", col = "lightgreen")
+1759736647527:# Données
+1759736647527:a <- c(11, 15, 23, 46, 52, 75)
+1759736649086:w <- c(34, 49, 58, 62, 69, 64)
+1759737083801:# 2.1 Calcul "à la main" (formule de corrélation de Pearson)
+1759737083801:cov_aw <- cov(a, w)
+1759737090578:sd_a <- sd(a)
+1759737099169:sd_w <- sd(w)
+1759737099460:r_aw <- cov_aw / (sd_a * sd_w)
+1759737099766:r_aw  # Corrélation calculée manuellement
+1759737100269:# 2.2 Vérification avec la fonction cor()
+1759737100269:cor(a, w)
+1759738657674:# 2.2 Vérification avec la fonction cor()
+1759738657674:cor(a, w)
+1759739121495:cor(a, w, method = "spearman")
+1759739188156:# 1.2 Histogramme des poids ('wt') avec 5 classes (bins)
+1759739188156:hist(mtcars$wt, breaks = 5, main = "Histogramme du poids des voitures (wt)",
+1759739188156:xlab = "Poids (en milliers de livres)",col = "lightblue",border = "white")
+1759739269450:# 1.2 Histogramme des poids ('wt') avec 5 classes (bins)
+1759739269450:hist(mtcars$wt, main = "Histogramme du poids des voitures (wt)",
+1759739269450:xlab = "Poids (en milliers de livres)",col = "lightblue",border = "white")
+1759739279987:, breaks = 5
+1759739285596:# 1.2 Histogramme des poids ('wt') avec 5 classes (bins)
+1759739285596:hist(mtcars$wt, breaks = 5, main = "Histogramme du poids des voitures (wt)",
+1759739285596:xlab = "Poids (en milliers de livres)",col = "lightblue",border = "white")
+1759740557946:# Calcul "à la main"
+1759740557947:cor(a, w, method = "spearman")
+1759740720788:knitr::opts_chunk$set(echo = TRUE)
+1759740720969:# Charger le jeu de données intégré
+1759740720971:data(mtcars)
+1759740732357:rm(list = ls())
+1759741276944:# Charger le jeu de données intégré
+1759741276944:data(mtcars)
+1759741277366:# 1.1 Tableau de contingence entre 'cyl' et 'am'
+1759741277366:tab_cont <- table(mtcars$cyl, mtcars$am)
+1759741277804:tab_cont
+1759741278221:# 1.2 Histogramme des poids ('wt') avec 5 classes (bins)
+1759741278221:hist(mtcars$wt, breaks = 5, main = "Histogramme du poids des voitures (wt)",
+1759741278221:xlab = "Poids (en milliers de livres)",col = "lightblue",border = "white")
+1759741279353:# 1.3 Diagramme en boîte du poids ('wt')
+1759741279353:boxplot(mtcars$wt, main = "Diagramme en boîte du poids des voitures",
+1759741279353:ylab = "Poids (en milliers de livres)", col = "lightgreen")
+1759741279894:# Données
+1759741279894:a <- c(11, 15, 23, 46, 52, 75)
+1759741280533:w <- c(34, 49, 58, 62, 69, 64)
+1759741281026:# Calcul "à la main"
+1759741281026:cov_aw <- cov(a, w)
+1759741281529:sd_a <- sd(a)
+1759741282004:sd_w <- sd(w)
+1759741282468:r_aw <- cov_aw / (sd_a * sd_w)
+1759741282918:r_aw
+1759741283395:# Vérification avec la fonction cor()
+1759741283395:cor(a, w)
+1759741283863:# Calcul "à la main"
+1759741283863:cor(a, w, method = "spearman")
+1759741285891:# Modèle de régression linéaire
+1759741285891:fit <- lm(w ~ a)
+1759741288101:# Calcul des corrélations
+1759741288101:r_pearson <- cor(a, w, method = "pearson")
+1759741289425:r_spearman <- cor(a, w, method = "spearman")
+1759741289880:# Préparer une plage pour la droite et la bande de confiance
+1759741289880:a_grid <- seq(min(a) - 5, max(a) + 5, length.out = 100)
+1759741290307:pred <- predict(fit, newdata = data.frame(a = a_grid), interval = "confidence", level = 0.95)
+1759741290767:# Tracer le nuage de points
+1759741290767:plot(a, w, pch = 19, cex = 1.3,
+1759741290767:xlab = "Âge (a)",
+1759741290768:ylab = "Poids (w)",
+1759741290768:main = "Nuage de points, droite de régression et résidus")
+1759741291135:# Tracer la droite de régression estimée
+1759741291136:lines(a_grid, pred[,"fit"], lwd = 2)
+1759741291884:# Tracer la bande de confiance à 95%
+1759741291885:lines(a_grid, pred[,"lwr"], lty = 2)
+1759741292282:lines(a_grid, pred[,"upr"], lty = 2)
+1759741294253:# Ajouter la droite de régression via abline (optionnel : même que lines)
+1759741294253:abline(fit, col = "blue", lwd = 2)
+1759741294748:# Tracer les résidus en tant que segments verticaux (distance point -> droite prédite)
+1759741294749:pred_points <- predict(fit, newdata = data.frame(a = a))
+1759741295109:for(i in seq_along(a)){
+1759741295109:segments(x0 = a[i], y0 = w[i], x1 = a[i], y1 = pred_points[i], col = "red", lwd = 1)
+1759741295109:}
+1759741295219:# Ajouter une légende et annotations des corrélations
+1759741295219:legend("topleft",
+1759741295219:legend = c(paste0("Pearson: ", round(r_pearson, 4)),
+1759741295220:paste0("Spearman: ", round(r_spearman, 4)),
+1759741295220:paste0("Modèle: w = ", round(coef(fit)[1], 3), " + ", round(coef(fit)[2], 4), " * a"),
+1759741295220:paste0("R² = ", round(summary(fit)$r.squared, 4))),
+1759741295220:bty = "n", cex = 0.9)
+1759741295362:# Optionnel: afficher les valeurs des points
+1759741295362:text(a, w, labels = seq_along(a), pos = 3, cex = 0.8)
+1759741295432:# Pour obtenir un second graphique : nuage des rangs (Spearman)
+1759741295432:# png("spearman_ranks.png", width = 700, height = 500)
+1759741295432:rank_a <- rank(a)
+1759741295594:rank_w <- rank(w)
+1759741295656:plot(rank_a, rank_w, pch = 19, xlab = "Rang(a)", ylab = "Rang(w)", main = "Nuage des rangs (Spearman)")
+1759741295755:abline(lm(rank_w ~ rank_a), col = "darkgreen", lwd = 2)
+1759741295856:text(rank_a, rank_w, labels = seq_along(a), pos = 3, cex = 0.9)
+1759741296061:# dev.off()
+1759741296210:# dev.off()
+1759741296280:# dev.off()
+1759741296432:# dev.off()
+1759741296523:# dev.off()
+1759741296675:# dev.off()
+1759741296738:# dev.off()
+1759741296870:# dev.off()
+1759741296939:# dev.off()
+1759741297121:# dev.off()
+1759741297171:# dev.off()
+1759741297478:# dev.off()
+1759741297595:# dev.off()
+1759741297798:# dev.off()
+1759741744664:rm(list = ls())
+1759741761924:# Charger le jeu de données intégré
+1759741761924:data(mtcars)
+1759741762053:# 1.1 Tableau de contingence entre 'cyl' et 'am'
+1759741762053:tab_cont <- table(mtcars$cyl, mtcars$am)
+1759741762125:tab_cont
+1759741762221:# 1.2 Histogramme des poids ('wt') avec 5 classes (bins)
+1759741762221:hist(mtcars$wt, breaks = 5, main = "Histogramme du poids des voitures (wt)",
+1759741762222:xlab = "Poids (en milliers de livres)",col = "lightblue",border = "white")
+1759741762305:# 1.3 Diagramme en boîte du poids ('wt')
+1759741762305:boxplot(mtcars$wt, main = "Diagramme en boîte du poids des voitures",
+1759741762305:ylab = "Poids (en milliers de livres)", col = "lightgreen")
+1759741763010:# Données
+1759741763010:a <- c(11, 15, 23, 46, 52, 75)
+1759741763204:w <- c(34, 49, 58, 62, 69, 64)
+1759741763588:# Calcul "à la main"
+1759741763589:cov_aw <- cov(a, w)
+1759741763890:sd_a <- sd(a)
+1759741764219:sd_w <- sd(w)
+1759741764505:r_aw <- cov_aw / (sd_a * sd_w)
+1759741764758:r_aw
+1759741764999:# Vérification avec la fonction cor()
+1759741765000:cor(a, w)
+1759741765345:# Calcul "à la main"
+1759741765345:cor(a, w, method = "spearman")
+1759741766350:plot(a, w, main = "Relation entre l'âge et le poids",
+1759741766350:xlab = "Âge (années)", ylab = "Poids (kg)", pch = 19, col = "blue")
+1759741769150:# Optionnel : ajouter une droite de tendance
+1759741769150:abline(lm(w ~ a), col = "red", lwd = 2)
+1759742377995:rm(list = ls())
+1759742395603:data("state.x77")
+1759742426001:data(state.x77)
+1759742491976:library(datasets)
+1759742493008:data("state.x77")
+1759742510006:head(state.x77)
+1759742528145:rm(list = ls())
+1759742532190:head(state.x77)
+1759742587573:# Vérifier à nouveau
+1759742587573:class(state_df)
+1759742591269:# Vérifier le type
+1759742591269:class(state.x77)
+1759742592483:# Conversion si nécessaire
+1759742592483:state_df <- as.data.frame(state.x77)
+1759742616984:# Vérifier à nouveau
+1759742616984:class(state_df)
+1759742651328:# Vérifier le type
+1759742651328:class(state.x77)
+1759742652496:# Conversion si nécessaire
+1759742652496:state_df <- as.data.frame(state.x77)
+1759742653033:# Vérifier à nouveau
+1759742653033:class(state_df)
+1759742656802:# Vérifier le type
+1759742656802:class(state.x77)
+1759742669782:# Conversion si nécessaire
+1759742669782:state_df <-state.x77
+1759742671275:# Vérifier à nouveau
+1759742671276:class(state_df)
+1759742692109:# Ajouter un attribut "states" avec les noms de lignes
+1759742692109:state_df$states <- rownames(state_df)
+1759742703698:# Vérifier le type
+1759742703698:class(state.x77)
+1759742704455:# Conversion si nécessaire
+1759742704455:state_df <- as.data.frame(state.x77)
+1759742705146:# Vérifier à nouveau
+1759742705146:class(state_df)
+1759742705807:# Ajouter un attribut "states" avec les noms de lignes
+1759742705808:state_df$states <- rownames(state_df)
+1759742707482:# Supprimer les noms de lignes
+1759742707482:rownames(state_df) <- NULL
+1759742707833:# Afficher les 6 premières lignes
+1759742707833:head(state_df)
+1759742818542:state.x77
+1759742873899:# Vérifier le type
+1759742873900:class(state.x77)
+1759742879921:rm(list = ls())
+1759742884197:# Conversion si nécessaire
+1759742884197:state_df <- as.data.frame(state.x77)
+1759742884679:# Vérifier à nouveau
+1759742884679:class(state_df)
+1759742887808:View(state_df)
+1759742902235:# Ajouter un attribut "states" avec les noms de lignes
+1759742902236:state_df$states <- rownames(state_df)
+1759742910556:# Supprimer les noms de lignes
+1759742910557:rownames(state_df) <- NULL
+1759742918419:# Afficher les 6 premières lignes
+1759742918419:head(state_df)
+1759742995887:# Filtrer les États selon les deux conditions
+1759742995887:etat_filtre <- subset(state_df, Income > 4300 & Population > 1000)
+1759743002039:View(etat_filtre)
+1759743069648:# Nombre d'États
+1759743069648:nrow(etat_filtre)
+1759743071277:# Liste des États concernés
+1759743071277:etat_filtre$states

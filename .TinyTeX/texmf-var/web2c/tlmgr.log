@@ -1,0 +1,14 @@
+[Sat Sep 27 18:40:32 2025] update: texlive-scripts (76404 -> 76415)
+[Sat Sep 27 18:40:32 2025] update: unicode-data (73362 -> 76413)
+[Sat Sep 27 18:40:32 2025] command: mktexlsr
+[Sat Sep 27 18:40:32 2025] command: updmap-sys
+[Sat Sep 27 18:40:32 2025] command: fmtutil-sys --byengine xetex --no-error-if-no-format --no-error-if-no-engine=luametatex,luajithbtex,luajittex,mfluajit --status-file=/tmp/CjvAwh1AnJ/jUsUiCtVkQ
+[Sat Sep 27 18:40:37 2025]   OK: xetex.fmt/xetex xelatex.fmt/xetex
+[Sat Sep 27 18:40:37 2025] command: fmtutil-sys --byengine luatex --no-error-if-no-format --no-error-if-no-engine=luametatex,luajithbtex,luajittex,mfluajit --status-file=/tmp/CjvAwh1AnJ/jUsUiCtVkQ
+[Sat Sep 27 18:40:39 2025]   OK: luatex.fmt/luatex dvilualatex.fmt/luatex dviluatex.fmt/luatex
+[Sat Sep 27 18:40:39 2025] command: fmtutil-sys --byengine luahbtex --no-error-if-no-format --no-error-if-no-engine=luametatex,luajithbtex,luajittex,mfluajit --status-file=/tmp/CjvAwh1AnJ/jUsUiCtVkQ
+[Sat Sep 27 18:40:41 2025]   OK: luahbtex.fmt/luahbtex lualatex.fmt/luahbtex
+[Sat Sep 27 18:40:41 2025] command: fmtutil-sys --byfmt pdflatex --no-error-if-no-engine=luametatex,luajithbtex,luajittex,mfluajit --status-file=/tmp/CjvAwh1AnJ/jUsUiCtVkQ
+[Sat Sep 27 18:40:45 2025]   OK: pdflatex.fmt/pdftex
+[Sat Sep 27 18:40:45 2025] command: fmtutil-sys --byfmt latex --no-error-if-no-engine=luametatex,luajithbtex,luajittex,mfluajit --status-file=/tmp/CjvAwh1AnJ/jUsUiCtVkQ
+[Sat Sep 27 18:40:49 2025]   OK: latex.fmt/pdftex

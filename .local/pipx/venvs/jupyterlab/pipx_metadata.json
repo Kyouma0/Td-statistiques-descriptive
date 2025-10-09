@@ -1,0 +1,204 @@
+{
+    "injected_packages": {},
+    "main_package": {
+        "app_paths": [
+            {
+                "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jlpm",
+                "__type__": "Path"
+            },
+            {
+                "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-lab",
+                "__type__": "Path"
+            },
+            {
+                "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-labextension",
+                "__type__": "Path"
+            },
+            {
+                "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-labhub",
+                "__type__": "Path"
+            }
+        ],
+        "app_paths_of_dependencies": {
+            "babel": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/pybabel",
+                    "__type__": "Path"
+                }
+            ],
+            "charset-normalizer": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/normalizer",
+                    "__type__": "Path"
+                }
+            ],
+            "debugpy": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/debugpy",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/debugpy-adapter",
+                    "__type__": "Path"
+                }
+            ],
+            "httpx": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/httpx",
+                    "__type__": "Path"
+                }
+            ],
+            "ipython": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/ipython",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/ipython3",
+                    "__type__": "Path"
+                }
+            ],
+            "json5": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/pyjson5",
+                    "__type__": "Path"
+                }
+            ],
+            "jsonpointer": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jsonpointer",
+                    "__type__": "Path"
+                }
+            ],
+            "jsonschema": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jsonschema",
+                    "__type__": "Path"
+                }
+            ],
+            "jupyter-client": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-kernel",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-kernelspec",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-run",
+                    "__type__": "Path"
+                }
+            ],
+            "jupyter-core": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-migrate",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-troubleshoot",
+                    "__type__": "Path"
+                }
+            ],
+            "jupyter-events": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-events",
+                    "__type__": "Path"
+                }
+            ],
+            "jupyter-server": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-server",
+                    "__type__": "Path"
+                }
+            ],
+            "nbclient": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-execute",
+                    "__type__": "Path"
+                }
+            ],
+            "nbconvert": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-dejavu",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-nbconvert",
+                    "__type__": "Path"
+                }
+            ],
+            "nbformat": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/jupyter-trust",
+                    "__type__": "Path"
+                }
+            ],
+            "pygments": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/pygmentize",
+                    "__type__": "Path"
+                }
+            ],
+            "send2trash": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/send2trash",
+                    "__type__": "Path"
+                }
+            ],
+            "websocket-client": [
+                {
+                    "__Path__": "/home/cantez93800/.local/pipx/venvs/jupyterlab/bin/wsdump",
+                    "__type__": "Path"
+                }
+            ]
+        },
+        "apps": [
+            "jlpm",
+            "jupyter-lab",
+            "jupyter-labextension",
+            "jupyter-labhub"
+        ],
+        "apps_of_dependencies": [
+            "httpx",
+            "debugpy",
+            "debugpy-adapter",
+            "ipython",
+            "ipython3",
+            "pygmentize",
+            "jupyter-kernel",
+            "jupyter-kernelspec",
+            "jupyter-run",
+            "jupyter",
+            "jupyter-migrate",
+            "jupyter-troubleshoot",
+            "jupyter-server",
+            "jupyter-events",
+            "jsonschema",
+            "jsonpointer",
+            "jupyter-dejavu",
+            "jupyter-nbconvert",
+            "jupyter-execute",
+            "jupyter-trust",
+            "send2trash",
+            "wsdump",
+            "pybabel",
+            "pyjson5",
+            "normalizer"
+        ],
+        "include_apps": true,
+        "include_dependencies": false,
+        "package": "jupyterlab",
+        "package_or_url": "jupyterlab",
+        "package_version": "4.4.9",
+        "pip_args": [],
+        "suffix": ""
+    },
+    "pipx_metadata_version": "0.2",
+    "python_version": "Python 3.11.2",
+    "venv_args": []
+}
